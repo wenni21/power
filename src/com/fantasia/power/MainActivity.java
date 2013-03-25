@@ -19,7 +19,7 @@ public class MainActivity extends FragmentActivity {
         
         mTabHost.setCurrentTab(0);//設定一開始就跳到第一個分頁
         mTabManager.addTab(
-                mTabHost.newTabSpec("Fragment1").setIndicator("Fragment1",
+                mTabHost.newTabSpec("Fragment1").setIndicator("省电",
                 this.getResources().getDrawable(
                     android.R.drawable.ic_dialog_alert)),Fragment1.class, null);
             mTabManager.addTab(
